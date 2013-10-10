@@ -1,0 +1,116 @@
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+
+body {
+	background-image: url(../img/pizza1.jpg);
+	background-position: left top;
+	font-family: 'Julius Sans One';
+	font-size: 25px;
+	padding: 10px;
+}
+
+.name{
+	font-family: 'Francois One', sans-serif;
+	font-size: 350%;
+	color: #FFFFFF;
+	float: top;
+}
+
+
+
+.content-box { /* class selector */
+	width: 50%; /* when it changes, the width changes */
+	margin: 0 auto; /* take horizontal center the box */
+	box-shadow: 2px 2px 6px #555; /* 6. how much it blurred*/
+	padding: 10px 30px;
+	background: #111;
+}
+
+header {
+	bottom: 15px;
+	left: 15px;
+	max-width: 250px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	position: fixed;
+}
+
+.line{
+	border-top: 5px solid #ffffff;
+	border-bottom: 5px solid #ffffff;
+	margin-bottom: 5px;
+	font-size: 30px;
+}
+
+header{
+	color: #FFF;
+	font-size: 70%;
+}
+
+
+.motto {
+	margin-left: 10px;
+	padding: 10px;
+}
+
+nav ul {
+	width: 97%;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: #FFF;
+	font-size: 110%;
+}
+
+nav li {
+	display: inline-block;
+}
+
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #F00;
+	border-radius: 5px;
+}
+
+h2{
+
+	margin-top: 40px;
+	color: #FFF;
+	margin-top: 10px;
+}
+
+h3{
+	color: #FFF;
+	margin-top: 10px;
+}
+
+p{
+	color: #FFF;
+	margin-top: 10px;
+}
+
+.info{
+	padding: 10px;
+	margin-top: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.order{
+	margin-right: 15px;
+	width: 130px;
+	height: 130px;
+}
