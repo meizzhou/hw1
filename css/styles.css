@@ -126,7 +126,8 @@ a{
 h2{
 	margin-top: 5px;
 	background-color: #c69453;
-	font-size: 120%
+	font-size: 120%;
+	font-weight: bold;
 }
 
 .smaller{
@@ -139,4 +140,28 @@ h2{
 
 h3{
 	color: #c69453;
+}
+
+
+.about{
+	font-size: 80%;
+	margin: 5px;
+
+}
+
+.oven{
+	margin-right: 15px;
+	width: 155px;
+	height: 155px;
+
+}
+
+.make{
+	margin-right: 15px;
+	width: 155px;
+	height: 155px;
+}
+
+.lastPara{
+	margin-bottom: 20px;
 }
