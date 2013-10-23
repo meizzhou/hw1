@@ -2,6 +2,10 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @import url(http://fonts.googleapis.com/css?family=Rock+Salt);
 
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body {
 	background-image: url(../img/pizza1.jpg);
 	background-position: left top;
@@ -15,7 +19,7 @@ body {
 	margin: 0 auto; /* take horizontal center the box */
 	box-shadow: 2px 2px 6px #555; /* 6. how much it blurred*/
 	padding: 10px 30px;
-	background: #111;
+	background: rgba(0, 0, 0, .7);
 }
 
 .name{
@@ -68,6 +72,11 @@ nav a:hover {
 .middle{
 	max-width:100%; 
 	max-height:100%;
+}
+
+.video{
+	max-width: 100%;
+	max-height: 100%;
 }
 
 header {
@@ -140,6 +149,31 @@ a{
 	font-size: 70%;
 }
 
+.col {
+        float: left;
+        width: 50%;
+}
+
+.menus {
+		width: 600px;
+        max-width: 100%;
+}
+.menus:after {
+        content: " ";
+        display: table;
+        clear: both;
+}
+
+.col-left {
+        background-repeat: no-repeat;
+        padding: 20px;
+}
+.col-right {
+        background-repeat: no-repeat;
+        padding: 20px;      
+}
+
+
 .high{
 	border-top: 5px dotted #ffffff;
 	border-bottom: 5px dotted #ffffff;
@@ -156,6 +190,8 @@ a{
 	margin-right: 15px;
 	width: 400px;
 	height: 200px;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .make{
@@ -177,5 +213,13 @@ footer{
 	font-style: italic;
 	padding-top: 10px;
 	color: #FFF;
+}
+
+@media (max-width: 767px) {
+        .col {
+                float: none;
+                width: 100%;
+        }
+
 }
 
