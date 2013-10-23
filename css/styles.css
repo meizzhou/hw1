@@ -14,8 +14,13 @@ body {
 	padding: 10px;
 }
 
+:focus {
+	outline: #FFF dotted 2px;
+	background-color: #000;
+}
+
 .content-box { /* class selector */
-	width: 50%; /* when it changes, the width changes */
+	width: 80%; /* when it changes, the width changes */
 	margin: 0 auto; /* take horizontal center the box */
 	box-shadow: 2px 2px 6px #555; /* 6. how much it blurred*/
 	padding: 10px 30px;
@@ -35,12 +40,27 @@ body {
 }
 
 .logo{
-	width: 90px;
-	height: 90px;
+	width: 150px;
+	height: 150px;
 	float: right;
 	padding: 10px;
+	opacity: 0.5;
 }
 
+.logo:hover {
+	opacity: 1;
+}
+.logo {
+	margin-left: 50px;
+	transition: all 1s;
+}
+.logo:hover {
+	-webkit-transform: scale(1.5) rotate(360deg);
+	-moz-transform: scale(1.5) rotate(360deg);
+	-o-transform: scale(1.5) rotate(360deg);
+	-ms-transform: scale(1.5) rotate(360deg);
+	transform: scale(1.5) rotate(360deg);
+}
 
 nav ul {
 	width: 97%;
@@ -70,8 +90,10 @@ nav a:hover {
 }
 
 .middle{
-	max-width:100%; 
-	max-height:100%;
+	min-width:100%; 
+	min-height:100%;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .video{
@@ -94,7 +116,7 @@ header {
 	border-top: 5px solid #ffffff;
 	border-bottom: 5px solid #ffffff;
 	margin-bottom: 5px;
-	font-size: 30px;
+	font-size: 22px;
 }
 
 .info{
@@ -150,13 +172,14 @@ a{
 }
 
 .col {
-        float: left;
-        width: 50%;
+    width: 50%;
+    float: left;
 }
 
 .menus {
 		width: 600px;
         max-width: 100%;
+        min-width: 100%;
 }
 .menus:after {
         content: " ";
@@ -165,14 +188,15 @@ a{
 }
 
 .col-left {
-        background-repeat: no-repeat;
-        padding: 20px;
+    padding: 5px;
 }
 .col-right {
-        background-repeat: no-repeat;
-        padding: 20px;      
+    padding: 5px;    
 }
 
+.col-bottom {
+	padding: 5px;
+}
 
 .high{
 	border-top: 5px dotted #ffffff;
@@ -220,6 +244,9 @@ footer{
                 float: none;
                 width: 100%;
         }
-
 }
+
+
+
+
 
