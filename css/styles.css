@@ -25,6 +25,7 @@ body {
 	box-shadow: 2px 2px 6px #555; /* 6. how much it blurred*/
 	padding: 10px 30px;
 	background: rgba(0, 0, 0, .7);
+	max-width: 900px;
 }
 
 .name{
@@ -104,12 +105,13 @@ nav a:hover {
 header {
 	bottom: 15px;
 	left: 15px;
-	max-width: 250px;
+	max-width: 200px;
 	padding-bottom: 10px;
 	padding-left: 10px;
 	position: fixed;
 	color: #FFF;
 	font-size: 70%;
+
 }
 
 .line{
@@ -243,6 +245,10 @@ footer{
         .col {
                 float: none;
                 width: 100%;
+        }
+
+        .line {
+        	display: none;
         }
 }
 
