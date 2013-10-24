@@ -104,6 +104,18 @@ nav a:hover {
 	transform: scale(1.5) rotate(360deg);
 }
 
+.email {
+    color: #FFF;
+}
+
+.twitter {
+    color: #FFF;
+}
+
+.map{
+   color: #FFF; 
+}
+
 .middle{
 	min-width:100%; 
 	min-height:100%;
