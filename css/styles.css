@@ -20,8 +20,9 @@ body {
 	background-color: #000;
 }
 
-.content-box :focus img {
-	outline: #FFF dotted 2px;
+a.link {
+    display: inline-block;
+    float: right;
 }
 
 .content-box { /* class selector */
@@ -58,8 +59,8 @@ body {
 .logo:hover {
 	opacity: 1;
 }
+
 .logo {
-	margin-left: 50px;
 	transition: all 0.5s;
 }
 
@@ -321,8 +322,8 @@ a{
 
 @media (max-width: 480px) {
 	.logo {
-		width: 60px;
-		height: 60px;
+		width: 70px;
+		height: 70px;
 	} 
 }
 
