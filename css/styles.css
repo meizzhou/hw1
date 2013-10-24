@@ -89,6 +89,7 @@ nav a {
 	padding: 10px;
 	color: #FFF;
 	font-size: 110%;
+	transition: all 0.5s;
 }
 
 nav li {
@@ -103,6 +104,11 @@ nav a:visited {
 nav a:hover {
 	background-color: #F00;
 	border-radius: 5px;
+	-webkit-transform: scale(1.5) rotate(360deg);
+	-moz-transform: scale(1.5) rotate(360deg);
+	-o-transform: scale(1.5) rotate(360deg);
+	-ms-transform: scale(1.5) rotate(360deg);
+	transform: scale(1.5) rotate(360deg);
 }
 
 .middle{
