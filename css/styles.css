@@ -34,7 +34,7 @@ a.link {
 	max-width: 900px;
 }
 
-.name{
+.name2{
 	font-family: 'Rock Salt', cursive;
 	font-size: 350%;
 	color: #c69453;
@@ -204,28 +204,6 @@ a{
 .col {
     width: 50%;
     float: left;
-}
-
-.menus {
-	width: 600px;
-    max-width: 100%;
-    min-width: 100%;
-}
-.menus:after {
-    content: " ";
-    display: table;
-    clear: both;
-}
-
-.col-left {
-    padding: 5px;
-}
-.col-right {
-    padding: 5px;    
-}
-
-.col-bottom {
-	padding: 5px;
 }
 
 .high{
