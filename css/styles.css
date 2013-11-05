@@ -206,13 +206,6 @@ a{
     float: left;
 }
 
-.high{
-	border-top: 5px dotted #ffffff;
-	border-bottom: 5px dotted #ffffff;
-	color:#c69453;;
-	padding: 5px;
-}
-
 .about{
 	font-size: 80%;
 	margin: 5px;
@@ -289,9 +282,6 @@ a{
 }
 
 @media (max-width: 600px) {
-	nav li {
-		display: block;
-	}
     .logo {
     	width: 80px;
     	height: 80px;
