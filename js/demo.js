@@ -34,3 +34,37 @@ function renderPizza2(pizzas, template, menuData) {
         menuData.append(instance);
     }
 }
+
+function renderDrink(drinks, template, menuData) {
+    var instance;
+    var idx;
+    var drink;
+
+    for(idx = 0; idx < com.dawgpizza.menu.drinks.length; ++idx) {
+        instance = template.clone();
+        drink = com.dawgpizza.menu.drinks[idx];
+
+        instance.find('.name').html(drink.name);
+
+        instance.find('.price').html('$' + drink.price);
+        instance.removeClass('template');
+        menuData.append(instance);
+    }
+}
+
+function renderDessert(desserts, template, menuData) {
+    var instance;
+    var idx;
+    var dessert;
+
+    for(idx = 0; idx < com.dawgpizza.menu.drinks.length; ++idx) {
+        instance = template.clone();
+        dessert = com.dawgpizza.menu.desserts[idx];
+
+        instance.find('.name').html(dessert.name);
+
+        instance.find('.price').html('$' + dessert.price);
+        instance.removeClass('template');
+        menuData.append(instance);
+    }
+}
